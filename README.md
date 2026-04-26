@@ -45,6 +45,7 @@ GitHub: manuela-menezes
     YELLOW              2s                   RED
 
 ### 3️⃣ Componentes Utilizados na Simulação
+
   Componente              ID                 Pino         Função
   ------------------------------------------------------------------------------------------------
   ESP32 DevKit C v4       esp                —            Microcontrolador principal (MicroPython)
