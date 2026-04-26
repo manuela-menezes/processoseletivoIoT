@@ -46,15 +46,15 @@ GitHub: manuela-menezes
 
 ### 3️⃣ Componentes Utilizados na Simulação
 
-  Componente              ID                 Pino         Função
-  ------------------------------------------------------------------------------------------------
-  ESP32 DevKit C v4       esp                —            Microcontrolador principal (MicroPython)
-  LED vermelho            led_red            GPIO 25      Sinaliza estado VERMELHO
-  LED amarelo             led_yellow         GPIO 26      Sinaliza estado AMARELO
-  LED verde               led_green          GPIO 27      Sinaliza estado VERDE
-  Resistor 220 Ω (×3)     r1, r2, r3         —            Limita corrente dos LEDs (~6 mA cada)
-  Botão de pedestre       btn_pedestrian     GPIO 14      Sensor de entrada — solicita travessia
-  Monitor Serial          —                  TX/RX        Log de progressão dos estados
+    Componente              ID                 Pino         Função
+    ------------------------------------------------------------------------------------------------
+    ESP32 DevKit C v4       esp                —            Microcontrolador principal (MicroPython)
+    LED vermelho            led_red            GPIO 25      Sinaliza estado VERMELHO
+    LED amarelo             led_yellow         GPIO 26      Sinaliza estado AMARELO
+    LED verde               led_green          GPIO 27      Sinaliza estado VERDE
+    Resistor 220 Ω (×3)     r1, r2, r3         —            Limita corrente dos LEDs (~6 mA cada)
+    Botão de pedestre       btn_pedestrian     GPIO 14      Sensor de entrada — solicita travessia
+    Monitor Serial          —                  TX/RX        Log de progressão dos estados
 
   ### Cálculo do resistor:
     R = (Vcc − Vf) / If = (3,3 V − 2,0 V) / 0,006 A ≈ 217 Ω → 220 Ω (valor comercial padrão).
